@@ -1,0 +1,112 @@
+body{
+background-color:#101820;
+display:flex;
+justify-content:center;
+}
+
+
+.news{
+margin:100px;
+height:380px;
+width: 100vh;
+padding:20px;
+border-radius:20px;
+background-color:white;
+}
+
+.photo{
+display:flex;
+justify-content:end;
+position:relative;
+top:-220px;
+}
+
+h1{
+color:#101820;
+padding-left:30px;
+}
+
+p{
+ padding-left:30px;
+ color:#101820;
+ font-weight: bold;
+}
+
+
+
+
+
+
+#email{
+position:relative;
+top:-350px;
+height:20px;
+width:40vh;
+}
+
+button{
+color:white;
+position:relative;
+top:-330px;
+background-color:#101820;
+height:30px;
+border-radius:5px;
+width:40vh;
+}
+
+button:hover{
+color:red;
+cursor:pointer;
+
+}
+
+button:active{
+     scale: 0.95;
+}
+
+
+
+
+
+
+
+
+
+/*--------phone mode----------------------------------------------------------------------*/
+
+.phone{
+margin:100px;
+height:700px;
+width: 50vh;
+padding:20px;
+border-radius:20px;
+background-color:white;
+
+}
+
+
+span{
+position:relative;
+top:350px;
+
+}
+
+
+
+@media (max-width: 1000px) {
+   .news {
+    display:none;
+}
+
+
+}
+
+
+
+
+@media (min-width: 1000px) {
+.phone{
+    display:none;
+}
+
+}
